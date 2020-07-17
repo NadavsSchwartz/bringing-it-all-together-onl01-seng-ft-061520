@@ -13,6 +13,6 @@ class Dog
     new_dog.id = row[0]
     new_dog.name =  row[1]
     new_dog.breee = row[2]
-    new_student
+    new_dog
   end
 end
