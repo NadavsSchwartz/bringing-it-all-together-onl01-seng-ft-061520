@@ -31,6 +31,7 @@ class Dog
     breed = row[2]
     self.new(id, name, breed)
   end  
+  
   def save
     if self.id
       self.update
