@@ -7,3 +7,4 @@ class Dog
     @breed = db["breed"]
     @id = db["id"]
   end
+end
