@@ -39,7 +39,7 @@ class Dog
   end
   
   def self.create(db)
-    dog = Dog.new(db["name"], db["breed"])
+    dog = Dog.new(db.name, db.breed)
     dog.save
     dog
   end
