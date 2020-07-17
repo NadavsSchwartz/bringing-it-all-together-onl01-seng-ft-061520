@@ -8,9 +8,11 @@ class Dog
     @id = db["id"]
   end
   
-  def self.attributes
-  self.name = name
-  self.breed = breed
-  
+  def self.attributes(db)
+    new_dog = Dog.new
+    new_dog.id = row[0]
+    new_dog.name =  row[1]
+    new_dog.breee = row[2]
+    new_student
   end
 end
