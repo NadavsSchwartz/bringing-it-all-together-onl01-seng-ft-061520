@@ -9,8 +9,8 @@ class Dog
   end
   
   def self.attributes
-  name = self.name
-  breed = self.breed
+  self.name = name
+  self.breed = breed
   
   end
 end
