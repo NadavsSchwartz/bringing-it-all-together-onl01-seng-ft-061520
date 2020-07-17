@@ -7,4 +7,10 @@ class Dog
     @breed = db["breed"]
     @id = db["id"]
   end
+  
+  def self.attributes
+  name = self.name
+  breed = self.breed
+  
+  end
 end
